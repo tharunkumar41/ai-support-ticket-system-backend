@@ -36,7 +36,7 @@ This backend provides REST APIs for an AI-powered support ticket system. It auth
 
 ## Project Structure
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 server
