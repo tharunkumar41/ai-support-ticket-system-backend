@@ -39,7 +39,7 @@ This backend provides REST APIs for an AI-powered support ticket system. It auth
 ## Project Structure
 
 ```text
-.
+server
 ├── config/
 │   └── db.js
 ├── controllers/
