@@ -51,7 +51,7 @@ server/
 ## Installation
 
 ```bash
-git clone <backend-repository-url>
+git clone https://github.com/tharunkumar41/ai-support-ticket-system-backend
 
 cd server
 
@@ -108,3 +108,15 @@ To complete the assignment within the available time, I implemented a single adm
 - Dashboard Analytics
 - Docker Deployment
 - Unit & Integration Tests
+
+
+# Screenshots
+
+## MongoDB - Admin Collection
+
+<img width="1806" height="628" alt="mongodb-admin-collection" src="https://github.com/user-attachments/assets/eabae921-18eb-4843-8fc8-e4c89bcb7fec" />
+
+
+## MongoDB - Tickets Collection
+
+<img width="1813" height="649" alt="mongodb-tickets-collection" src="https://github.com/user-attachments/assets/c64dfc20-4140-4818-97d5-3d5e2a6291ca" />
