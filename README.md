@@ -36,16 +36,34 @@ This backend provides REST APIs for an AI-powered support ticket system. It auth
 
 ## Project Structure
 
-```
-server/
-│── config/
-│── controllers/
-│── middleware/
-│── models/
-│── routes/
-│── services/
-│── scripts/
-│── server.js
+## Project Structure
+
+```text
+.
+├── config/
+│   └── db.js
+├── controllers/
+│   ├── authController.js
+│   ├── adminController.js
+│   └── ticketController.js
+├── middleware/
+│   └── authMiddleware.js
+├── models/
+│   ├── Admin.js
+│   └── Ticket.js
+├── routes/
+│   ├── authRoutes.js
+│   ├── adminRoutes.js
+│   └── ticketRoutes.js
+├── services/
+│   └── aiService.js
+├── utils/
+│   └── prompt.js
+├── scripts/
+│   └── createAdmin.js
+├── server.js
+├── package.json
+└── .env.example
 ```
 
 ## Installation
